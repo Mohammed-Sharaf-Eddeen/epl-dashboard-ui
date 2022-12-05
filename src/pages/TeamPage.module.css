@@ -1,0 +1,35 @@
+.layout {
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.innerContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: white;
+    padding: 16px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+.teamTitle {
+    font-size: 2.25rem;
+    grid-column: 1 / span 2;
+}
+
+.pieCharts {
+    align-items: flex-start;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    margin-bottom: 8vh;
+}
+
+.matchCompleteCard {
+    grid-column: 1 / span 4;
+    margin-bottom: 4vh;
+}
+
